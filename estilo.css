@@ -16,9 +16,9 @@ button {
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding: 3px 10%;
+  padding: 5px 10%;
 }
 .nav_links {
   list-style: none;
@@ -180,6 +180,7 @@ h3 {
   font-size: 16px;
   font-weight: 300;
   color: #025cb1;
+  
 }
 .containercards .card a {
   font-weight: 500;
@@ -211,6 +212,7 @@ h4 {
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 30px;
+  background-color: #e2ecf5;
 }
 .container-form a {
   font-size: 17px;
@@ -221,9 +223,6 @@ h4 {
   color: black;
   font-weight: 700;
 }
-.container-formai {
-  color: wheat margin-right 10px;
-}
 .container-form form .campo,
 textarea {
   width: 100%;
@@ -232,12 +231,16 @@ textarea {
   border: 1px solid #dbdbdb;
   margin-bottom: 20px;
   border-radius: 3px;
+  background-color: #e2ecf5;
+  flex: auto;
+
 }
 .container-form form textarea {
   max-width: 530px;
   min-width: 530px;
   min-height: 140px;
   max-height: 150px;
+  flex: auto;
 }
 
 .container-form .btn-enviar {
@@ -259,9 +262,22 @@ textarea {
   padding: 50px;
   border-radius: 9px;
   background: #025cb1;
+  flex: auto;
+  font-weight: 200;
+  
 }
 .Formulario {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+h5{
+  text-align: center;
+  background-color: #025cb1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
