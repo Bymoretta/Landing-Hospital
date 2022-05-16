@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  background-color: #f4f4f2;
+  margin: 0;
+  padding: 0;
+}
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1spx;
+  color: #025cb1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: rgb(0, 150, 167);
+}
+button {
+  margin-left: 4px;
+  padding: 9px 45px;
+  background-color: #85e0ea;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: whitesmoke;
+}
+.logo {
+  gap: 10px;
+  height: 10vh;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  text-align: rights;
+  contain: content;
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  position: relative;
+  background: url(Doc.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+  background-color: #025cb1;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #08b5c8;
+  text-transform: capitalize;
+}
+.description {
+  text-align: center;
+  color: #025cb1;
+  font-family: "Montserrat", sans-serif;
+}
+.hospital {
+  width: 500px;
+  margin: 30px auto;
+  font-family: Montserrat;
+  position: relative;
+  overflow: hidden;
+}
+
+.hospital figure img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 188, 223);
+  box-shadow: 2px 2px 10px gray;
+}
+.hospital :hover img {
+  transform: scale(1.09);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  margin: 0;
+  font-size: 70px;
+}
+.container h1 span {
+  border: 6px whitesmoke;
+  padding: 6px 14px;
+  display: inline-block;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #025cb1;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid rgb(188, 188, 223);
+  box-shadow: 2px 2px 10px gray;
+}
+.container h1 {
+  margin: 4;
+  font-size: 36px;
+}
+.container h1 span {
+  border: 6px solid rgb(255, 255, 255);
+  padding: 6px 14px;
+  display: inline-block;
+}
+.containercards {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.containercards .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 02px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.containercards .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 012px 16px rgba (0, 0, 0, o.2);
+}
+.containercards .card img {
+  width: 330px;
+  height: 210px;
+}
+.containercards .card h4 {
+  font-weight: 400;
+}
+.containercards .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  color: #025cb1;
+}
+.containercards .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #025cb1;
+}
+h4 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: aliceblue;
+  border-bottom: 3px solid black;
+}
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+}
+.container-form p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.container-form a {
+  font-size: 17px;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+}
+.container-formai {
+  color: wheat
+  margin-right 10px;
+}
+.container-form form .campo,
+textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.container-form form textarea {
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: #08b5c8;
+  color: #025cb1;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+.container-form .btn-enviar:hover {
+  background-color: whitesmoke;
+}
