@@ -186,13 +186,18 @@ h3 {
   text-decoration: none;
   color: #025cb1;
 }
+
 h4 {
   margin: 10px 0;
   padding-bottom: 10px;
   width: 180px;
   color: aliceblue;
-  border-bottom: 3px solid black;
+  background-color: #025cb1;
+  text-align: center;
+  font-family: Montserrat;
+  text-transform: initial;
 }
+
 .container-form {
   width: 100%;
   max-width: 1100px;
@@ -217,8 +222,7 @@ h4 {
   font-weight: 700;
 }
 .container-formai {
-  color: wheat
-  margin-right 10px;
+  color: wheat margin-right 10px;
 }
 .container-form form .campo,
 textarea {
@@ -250,4 +254,14 @@ textarea {
 }
 .container-form .btn-enviar:hover {
   background-color: whitesmoke;
+}
+.mapa {
+  padding: 50px;
+  border-radius: 9px;
+  background: #025cb1;
+}
+.Formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
